@@ -1,6 +1,6 @@
 # Hospital Readmission Analysis - Diabetes 130-US Hospitals
 
-**Internship Project 1 of 2** · BSc CSIT, 8th semester (Tribhuvan University)
+**Certification Project** ·
 
 Which diabetic patients come back to hospital within 30 days of discharge, and can we predict it?
 This project cleans ten years of US hospital records (1999-2008), explores what drives early readmission, tests the findings statistically, trains two classification models and prepares the data for a Power BI dashboard.
@@ -91,7 +91,6 @@ healthcare-readmission-analysis/
 3. **Cleaning:** one encounter per patient, expired/hospice discharges removed, outliers capped with IQR, ICD-9 codes grouped into 9 diagnosis groups, 4 new features. Result: **69,970 patients**. Every decision is in `docs/cleaning_log.md`.
 4. **EDA:** distributions, readmission rate by group, correlation heatmap, 3 chi-square tests and 2 t-tests.
 5. **Modeling:** Logistic Regression and Decision Tree with `class_weight="balanced"` to handle the ~9% / 91% imbalance; 80/20 stratified split.
-6. **Dashboard prep:** tidy CSVs and a 3-page Power BI plan.
 
 ---
 
