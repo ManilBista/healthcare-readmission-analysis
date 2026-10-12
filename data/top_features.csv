@@ -1,0 +1,21 @@
+model,feature,value
+Logistic Regression (coefficient),discharge_disposition_id_15,2.0381
+Logistic Regression (coefficient),discharge_disposition_id_28,1.7461
+Logistic Regression (coefficient),payer_code_SI,-1.7288
+Logistic Regression (coefficient),tolazamide,-1.717
+Logistic Regression (coefficient),discharge_disposition_id_22,1.5667
+Logistic Regression (coefficient),admission_type_id_7,-1.446
+Logistic Regression (coefficient),discharge_disposition_id_23,-1.4157
+Logistic Regression (coefficient),discharge_disposition_id_5,1.2056
+Logistic Regression (coefficient),discharge_disposition_id_12,1.1044
+Logistic Regression (coefficient),discharge_disposition_id_9,0.7564
+Decision Tree (importance),number_inpatient,0.3192
+Decision Tree (importance),discharge_disposition_id_22,0.2206
+Decision Tree (importance),discharge_disposition_id_3,0.1707
+Decision Tree (importance),discharge_disposition_id_5,0.0908
+Decision Tree (importance),time_in_hospital,0.0889
+Decision Tree (importance),payer_code_MC,0.0268
+Decision Tree (importance),discharge_disposition_id_2,0.0184
+Decision Tree (importance),num_medications,0.0112
+Decision Tree (importance),diag_1_group_Respiratory,0.0101
+Decision Tree (importance),payer_code_HM,0.0096
